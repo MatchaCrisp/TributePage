@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+
         <title>
-            insert tab title
+            Flareons
         </title>
+        <style>
+            header {
+                font-family: 'Permanent Marker', cursive;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <p class = "title">title</p>
+            <p id = "title">Flareons</p>
         </header>
         <main id="main">
+            
             <article class = "item" id = "brush">
-                <p class = "title">Brushes</p>
-                <figure>
-                    <img src ="./Resources/hacksaw.jpeg" alt="an assortment of brushes">
-                </figure>
-                <figcaption>Hacksaw Brushes</figcaption>
-                <p class="description">Made of the highest quality oak. Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class ="pricing">Starting at $3.00/brush.</span></p>
-                
+                <div id="img-div">
+                    <figure>
+                        <img id="image" src="https://pokemon.fandom.com/wiki/Flareon_(XY095)?file=Flareon_XY095.png" alt="Picture of a Flareon">
+                    </figure>
+                    <figcaption id="img-caption">Wild Flareon</figcaption>
+                </div>
+                <div id="tribute-info">
+                    <p>
+                        Flareons are fire-type pokemons
+                    </p>
+                </div>
             </article>
+            <nav>
+                <p>click <a id ="tribute-link" href="https://bulbapedia.bulbagarden.net/wiki/Flareon_(Pok%C3%A9mon)" target="_blank">here</a> to learn more about Flareons!</p>
+            </nav>
         </main>
-        
-
-        <nav>
-
-        </nav>
-        <footer>
-            <p>footer</p>
-        </footer>
+      
     </body>
 </html>
