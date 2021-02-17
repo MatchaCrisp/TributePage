@@ -76,7 +76,7 @@ body::before {
     width:100%;
     height:100%;
     z-index: -1;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url(../img/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url(https://raw.githubusercontent.com/MatchaCrisp/TributePage.github.io/main/res/img/bg.jpg);
     opacity:50%;
     background-size:cover;
     filter: grayscale(100%);
@@ -111,7 +111,7 @@ main {
     width:80%;
     margin: 0 auto;
     min-width:43rem;
-    background-image:url(../img/paperTexture.png);
+    background-image:url(https://raw.githubusercontent.com/MatchaCrisp/TributePage.github.io/main/res/img/paperTexture.png);
     background-repeat:repeat;
     border:var(--col-4) 1px solid;
     box-shadow: 2px 2px 1px var(--col-3), 5px 5px 2px var(--col-2);
