@@ -1,1 +1,1 @@
-This starts as the first assignment out of html teachings at freecodecamp.org
+This is a pure HTML/CSS solution to FCC #1 create a tribute page

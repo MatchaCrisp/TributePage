@@ -1,0 +1,14 @@
+V0.1: skeletal text/structure
+todo:
+3. fix up links/resources/contacts
+
+upcoming:
+1. flexgrid layout
+2. responsive design
+3. accessibility
+
+v 0.2: desktop layout & relevant images/colour schemes, no flexgrid plan
+
+v 0.3: added content/links, added text for accessibility
+
+v 1.0 (current): addded responsive/mobile design.

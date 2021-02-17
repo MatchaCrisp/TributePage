@@ -1,8 +1,0 @@
-V0.1: skeletal text/structure
-todo:
-3. fix up links/resources/contacts
-
-upcoming:
-1. flexgrid layout
-2. responsive design
-3. accessibility
