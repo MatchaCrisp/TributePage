@@ -11,4 +11,6 @@ v 0.2: desktop layout & relevant images/colour schemes, no flexgrid plan
 
 v 0.3: added content/links, added text for accessibility
 
-v 1.0 (current): addded responsive/mobile design.
+v 1.0: added responsive/mobile design.
+
+v 1.1: fixed mobile design, potential font-size issue on tablets.

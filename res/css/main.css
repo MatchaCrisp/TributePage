@@ -177,9 +177,11 @@ h2 {
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-    html {
-        font-size:40px;
-    }
+
+        html {
+            font-size:40px;
+        }
+
 
     
 }
@@ -197,5 +199,10 @@ h2 {
         display:flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
+    }
+}
+@media (orientation:landscape) {
+    html{
+        font-size:20px;
     }
 }
