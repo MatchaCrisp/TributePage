@@ -43,6 +43,7 @@ table {
 }
 /*===========================================================*/
 
+/*-color palette-*/
 :root {
     --col-0:#FFFFFF;
     --col-1:#FAFAFA;
@@ -53,21 +54,22 @@ table {
 
 *, *::before {
     font-family: 'EB Garamond', serif;
-
     box-sizing:border-box;
 }
 
+/*setting rem*/
 html {
     font-size:20px;
-
-
 }
+
 body {
     position:relative;
     height:100%;
     width:100%;
     line-height:1.6rem;
 }
+
+/*adding background picture*/
 body::before {
     content: '';
     display:block;
@@ -83,7 +85,7 @@ body::before {
     filter: grayscale(100%);
 
 }
-
+/*------navbar------*/
 nav {
     position:relative;
     width:80%;
@@ -91,8 +93,6 @@ nav {
     margin-top:2rem;
     margin-bottom:2rem;
     display:none;
-
-    
 }
 
 a {
@@ -105,9 +105,11 @@ a:hover {
     color:var(--col-3);
 }
 
+/*----------------------*/
+
+
 main {
     position:relative;
-
     margin:3rem auto 3rem auto;
     width:100%;
     height:80%;
@@ -115,21 +117,13 @@ main {
     background-image:url('https://raw.githubusercontent.com/MatchaCrisp/TributePage.github.io/main/res/img/paperTexture.png');
     background-repeat:repeat;
     border:black 1px solid;
-
-
 }
 
-h2 {
-    text-align:center;
-    font-size:2rem;
-    margin-bottom:2rem;
-    font-weight:600;
-}
+
+/*-----tribute img-----------*/
 #img-div {
-
     width:100%;
     height:100%;
-
 }
 
 #image {
@@ -139,16 +133,26 @@ h2 {
     margin: 5% auto 5% auto;
     display:block;
     filter:grayscale(30%);
-
 }
+
 #img-caption {
     text-align:center;
     margin-bottom:5%;
 }
+
+/*-----------------------*/
+
+
+/*---------tribute content------------*/
+/*tribute title*/
+h2 {
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:2rem;
+    font-weight:600;
+}
 #tribute-info {
     padding:2rem;
-
-
 }
 
 .main_txt {
@@ -173,18 +177,17 @@ h2 {
     text-align:center;
 
 }
+/*------------------------------*/
 
+/*-------------responsive design----------------*/
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-
         html {
             font-size:40px;
         }
-
-
-    
 }
+
 @media only screen and (min-width:600px) {
     #img-div {
         width:50%;
@@ -201,6 +204,7 @@ h2 {
         justify-content: space-evenly;
     }
 }
+
 @media (orientation:landscape) {
     html{
         font-size:20px;
