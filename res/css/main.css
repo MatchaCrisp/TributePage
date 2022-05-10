@@ -180,13 +180,6 @@ h2 {
 /*------------------------------*/
 
 /*-------------responsive design----------------*/
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-        html {
-            font-size:40px;
-        }
-}
 
 @media only screen and (min-width:600px) {
     #img-div {
@@ -205,8 +198,3 @@ h2 {
     }
 }
 
-@media (orientation:landscape) {
-    html{
-        font-size:20px;
-    }
-}

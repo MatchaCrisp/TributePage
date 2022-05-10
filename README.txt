@@ -1,1 +1,0 @@
-This is a pure HTML/CSS solution to FCC #1 create a tribute page
